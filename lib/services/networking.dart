@@ -16,11 +16,7 @@ class NetworkHelper {
       String data = response.body;
       
       return jsonDecode(data);
-      // int condition = decodeData['weather'][0]['id'];
       
-      // double temprature = decodeData['main']['temp'];
-      
-      // String cityname = decodeData['name'];
       
 
     } else {
